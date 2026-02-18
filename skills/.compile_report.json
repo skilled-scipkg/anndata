@@ -1,0 +1,95 @@
+{
+  "compiled_package_id": "anndata",
+  "evidence": {
+    "core_skills": [
+      "anndata-release-notes",
+      "anndata-parallel-hpc",
+      "anndata-api-and-scripting",
+      "anndata-tests",
+      "anndata-typing",
+      "anndata-troubleshooting"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/anndata-release-notes.md",
+      "skills/.evidence/anndata-parallel-hpc.md",
+      "skills/.evidence/anndata-api-and-scripting.md",
+      "skills/.evidence/anndata-tests.md",
+      "skills/.evidence/anndata-typing.md",
+      "skills/.evidence/anndata-troubleshooting.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "No top-level examples/ directory; tutorials are under docs/tutorials.",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to fix invalid f-string join expressions for Python compatibility."
+    ],
+    "package_name": "anndata",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src/anndata",
+      "src/testing/anndata"
+    ],
+    "test_dirs": [
+      "tests",
+      "src/anndata/tests"
+    ],
+    "tutorial_dirs": [
+      "docs/tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/anndata-anndata",
+  "validation": {
+    "core_skills_checked": [
+      "anndata-release-notes",
+      "anndata-advanced-topics",
+      "anndata-parallel-hpc",
+      "anndata-api-and-scripting",
+      "anndata-tests",
+      "anndata-typing"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/anndata-anndata/skills/anndata-typing/references/source_map.md: broken path references: typing.py",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/anndata-anndata/skills/anndata-advanced-topics/SKILL.md: missing `## High-Signal Playbook` section."
+    ],
+    "index_skills": [
+      "anndata-index"
+    ],
+    "ok": false,
+    "skills_total": 8,
+    "source_links_total": 73,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}

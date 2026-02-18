@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "anndata-release-notes",
+    "anndata-parallel-hpc",
+    "anndata-api-and-scripting",
+    "anndata-tests",
+    "anndata-typing",
+    "anndata-troubleshooting"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/anndata-release-notes.md",
+    "skills/.evidence/anndata-parallel-hpc.md",
+    "skills/.evidence/anndata-api-and-scripting.md",
+    "skills/.evidence/anndata-tests.md",
+    "skills/.evidence/anndata-typing.md",
+    "skills/.evidence/anndata-troubleshooting.md"
+  ]
+}
